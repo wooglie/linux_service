@@ -5,7 +5,7 @@ How to make a service in Ubuntu Linux
 Save the following at `/lib/systemd/system/you_service_name.service`:
 ```
 [Unit]
-Description=LTPS NodeJS Test Application
+Description=My First Service
 After=network-online.target
 
 [Service]
@@ -24,11 +24,10 @@ WantedBy=multi-user.target
 ```
 
 Run:
-```
-systemctl daemon-reload
-systemctl enable you_service_name
-systemctl restart you_service_name
-```
+`systemctl daemon-reload` to let the system know about our service
+`systemctl enable you_service_name` to load this service on boot
+`systemctl restart you_service_name` to finnaly run our service
+
 
 Watch:
 ```
