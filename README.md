@@ -23,10 +23,10 @@ MemoryLimit=50M
 WantedBy=multi-user.target
 ```
 
-Run:
-`systemctl daemon-reload` to let the system know about our service
-`systemctl enable you_service_name` to load this service on boot
-`systemctl restart you_service_name` to finnaly run our service
+Run:<br/>
+`systemctl daemon-reload` to let the system know about our service<br/>
+`systemctl enable you_service_name` to load this service on boot<br/>
+`systemctl restart you_service_name` to finnaly run our service<br/>
 
 
 Watch:
