@@ -25,7 +25,7 @@ WantedBy=multi-user.target
 
 Let the system know about our service:
 ```
-systemctl daemon-reload`
+systemctl daemon-reload
 ```
 
 Load this service on boot:
